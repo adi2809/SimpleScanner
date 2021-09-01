@@ -33,4 +33,4 @@ the basic idea of the implementation lies in how to solve the linear system of e
 - files in the test_images folder : 
   - test_0.png, the image on which we tested the programme.
 - files in the test_coords folder : 
-  - coords_o.txt the coordinates of the four points for the perspective transform in the order specified above.
+  - coords_0.txt the coordinates of the four points for the perspective transform in the order specified above for the test_0.img.
