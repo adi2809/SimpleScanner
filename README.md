@@ -34,3 +34,8 @@ the basic idea of the implementation lies in how to solve the linear system of e
   - test_0.png, the image on which we tested the programme.
 - files in the test_coords folder : 
   - coords_0.txt the coordinates of the four points for the perspective transform in the order specified above for the test_0.img.
+
+
+right now we need to manually determine the four points but work can be further improved by :
+1) using a GUI - based drag service for the user (implement using tkinter).
+2) using opencv - based automatic detection of the countour and the largest feasible rectangle.
