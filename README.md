@@ -28,3 +28,8 @@ python/ python3 main.py --image [path of image file] --coords [path of coordinat
   - top_right_x,top_right_y
   - btm_right_x,btm_right_y
   - btm_left_x,btm_left_y
+
+- files in the test_images folder : 
+  - test_0.png, the image on which we tested the programme.
+- files in the test_coords folder : 
+  - coords_o.txt the coordinates of the four points for the perspective transform in the order specified above.
