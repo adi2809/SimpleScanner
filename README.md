@@ -4,7 +4,7 @@ this is the submission to the assignment one of JRL302-Robotics-Technology at In
 project dependencies : 
 python, open-cv, numpy, argparse.
 
-breif description of programme files :
+brief description of programme files :
 
 1) input_output.py - written for implementing the reading of images, text files from specified path.
 2) compute_homography.py - written for implementing the computation of perspective transform from source coordinates to destination coordinates.
