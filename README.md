@@ -19,7 +19,7 @@ the method is based on the idea suggested in this mathematics stack-exchange pos
 the basic idea of the implementation lies in how to solve the linear system of equations to find the 8-unknown paramters of the projective matrix namely h11, h12, h13, h21, h22, h23, h31, h32 ( we can take h33 = 1). 
 
 
-</b>instructions for running the programme in the terminal</b>: type the following line with the necessary inputs on to the device's terminal. 
+</b>instructions for running the programme in the terminal :</b>
 
 <b>python/ python3 main.py --image [path of image file] --coords [path of coordinates file in form of a .txt]</b>
 
