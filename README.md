@@ -1,4 +1,4 @@
-# SimpleScanner
+## SimpleScanner
 this is the submission to the assignment one of JRL302-Robotics-Technology at Indian Institute of Technology Delhi for the semester one 2021-2022
 
 project dependencies : 
@@ -14,7 +14,7 @@ brief description of programme files :
 
 logic flow behind the implementation :
 
-the method is based on the idea suggested in this mathematics stack-exchange post (https://math.stackexchange.com/questions/494238/how-to-compute-homography-matrix-h-from-corresponding-points-2d-2d-planar-homog/2619023#2619023 ; read this answer https://math.stackexchange.com/a/1289595/613549 ) 
+-the method is based on the idea suggested in this mathematics stack-exchange post ( https://math.stackexchange.com/a/1289595/613549 ).
 
 the basic idea of the implementation lies in how to solve the linear system of equations to find the 8-unknown paramters of the projective matrix namely h11, h12, h13, h21, h22, h23, h31, h32 ( we can take h33 = 1). 
 
