@@ -9,7 +9,7 @@ brief description of programme files :
 1) input_output.py - written for implementing the reading of images, text files from specified path.
 2) compute_homography.py - written for implementing the computation of perspective transform from source coordinates to destination coordinates.
 3) post_processing.py - written for implementing histogram equalisation/ whitebalance for the image (added functionality not integrated in main)
-4) main.py - written to run the app using a simple terminal call which will be explained in the instructions below for running the programme .
+4) main.py - written to run the app using a simple terminal call which will be explained in the instructions below for running the programme.
 
 
 logic flow behind the implementation :
@@ -23,7 +23,7 @@ the basic idea of the implementation lies in how to solve the linear system of e
 
 <b>python/ python3 main.py --image [path of image file] --coords [path of coordinates file in form of a .txt]</b>
 
-- image file can be a .png, .jpg or other formats that can be read by the opencv-python library's imread().
+- image file can be a .png, .jpg or other formats that can be read by the opencv-python library's imread()
 - in the coords.txt file the following format is to be followed: 
   - top_left_x,top_left_y
   - top_right_x,top_right_y
@@ -36,6 +36,6 @@ the basic idea of the implementation lies in how to solve the linear system of e
   - coords_0.txt the coordinates of the four points for the perspective transform in the order specified above for the test_0.img.
 
 
-right now we need to manually determine the four points but work can be further improved by :
+right now we need to manually determine the four points (using GIMP v 2.0) but work can be further improved by :
 1) using a GUI - based drag service for the user (implement using tkinter).
 2) using opencv - based automatic detection of the countour and the largest feasible rectangle.
